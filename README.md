@@ -1,3 +1,3 @@
-# Practica 12 
-## _Login, Registrar Usuarios Y Recuperar Contraseña por Correo Gmail en HTML, JAVASCRIPT, SQL y PHP_
-Este login permite al usuario recuperar su contraseña ingresando su correo, además de validar si el correo existe en la base de datos para evitar envíos innecesarios. Por otro lado, el registro de nuevos usuarios esta validado para no aceptar correos duplicados o existentes en la base de datos. 
+# Autenticación Segura Mediante E-Mail
+## _Área: Prácticas_
+La práctica de "Autenticación Segura Mediante E-Mail" es una solución diseñada para gestionar el acceso de usuarios a una plataforma web de forma segura y confiable. Esta práctica utiliza tecnologías como PHP, MySQL y Recaptcha para garantizar la autenticación de usuarios de manera efectiva.

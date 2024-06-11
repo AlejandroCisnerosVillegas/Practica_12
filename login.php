@@ -1,22 +1,15 @@
 <?php
-
-include('conexion.php');
-
-$correo = $_POST["txtcorreo"];
-$pass 	= $_POST["txtpassword"];
-
-//Para iniciar sesión
-
-$queryusuario = mysqli_query($conn,"SELECT * FROM poject_25_login WHERE correo ='$correo' and pass = '$pass'");
-$nr 		= mysqli_num_rows($queryusuario);  
-	
-if ($nr == 1)  
+	include('conexion.php');
+	$correo = $_POST["txtcorreo"];
+	$pass 	= $_POST["txtpassword"];
+	$queryusuario = mysqli_query($conn,"SELECT * FROM poject_25_login WHERE correo ='$correo' and pass = '$pass'");
+	$nr 		= mysqli_num_rows($queryusuario);  	
+	if ($nr == 1)  
 	{ 
-	echo	"<script> alert('Usuario logueado.');window.location= 'index.html' </script>";
+		echo	"<script> alert('El usuario inicio sesión correctamente.');window.location= 'index.html' </script>";
 	}
-else
+	else
 	{
-	echo "<script> alert('Usuario o contraseña incorrecto.');window.location= 'index.html' </script>";
+		echo "<script> alert('Usuario o contraseña incorrecto.');window.location= 'index.html' </script>";
 	}
-
 ?>

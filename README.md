@@ -20,7 +20,7 @@ El proceso de registro requiere que los usuarios proporcionen su correo electró
 
 La práctica de **"Autenticación Segura Mediante E-Mail"** ofrece una solución robusta para la gestión segura de accesos de usuarios en aplicaciones web. Al integrar tecnologías como PHP, MySQL y Recaptcha, esta práctica garantiza la autenticación efectiva de usuarios, protegiendo así la privacidad y seguridad de los datos del usuario. Su implementación cuidadosamente diseñada y su enfoque en la seguridad hacen de esta práctica una adición valiosa a cualquier proyecto web que requiera autenticación de usuarios confiable.
 
-**Consulta la versión preliminar de la practica aquí:** [https://practica_12.com](https://alejandrovillegas.net/projects/practice-12/index.html)
+**Consulta la versión preliminar de la practica aquí:** [https://practica_12.com](https://www.alejandrovillegas.dev/projects/practice-12/index.html)
 
 # 📌 Información de la Practica
 
@@ -32,7 +32,7 @@ Esta practica ha sido desarrollado como parte del portafolio de soluciones tecno
 
 - **Fecha de Desarrollo**: 10 de diciembre de 2018
 
-- **Portafolio de Proyectos**: [www.alejandrovillegas.net](https://www.alejandrovillegas.net/)
+- **Portafolio de Proyectos**: [www.alejandrovillegas.dev](https://www.alejandrovillegas.dev)
 
 # Guía de Instalación y Configuración
 
